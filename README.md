@@ -1,10 +1,9 @@
 # ProgressBars30
 
-![ProgressBars30](https://via.placeholder.com/150)
 
 Bienvenido a **ProgressBars30**, un proyecto que presenta 30 diseños innovadores de barras de progreso con animaciones únicas, creado con HTML, CSS y JavaScript. Este proyecto es ideal para desarrolladores que buscan inspiración o componentes reutilizables para sus aplicaciones web.
 
-URL del proyecto: [https://github.com/decagraff/ProgressBars30](https://github.com/decagraff/ProgressBars30)
+URL del proyecto: [https://github.com/decagraff/ProgressBars](https://github.com/decagraff/ProgressBars)
 
 ## Características
 
@@ -24,7 +23,7 @@ URL del proyecto: [https://github.com/decagraff/ProgressBars30](https://github.c
 
 1. **Clona el Repositorio**:
    ```bash
-   git clone https://github.com/decagraff/ProgressBars30.git
+   git clone https://github.com/decagraff/ProgressBars.git
    cd ProgressBars30
    ```
 
@@ -54,7 +53,7 @@ URL del proyecto: [https://github.com/decagraff/ProgressBars30](https://github.c
 1. **Fork y Clona**:
    - Haz un fork del repositorio y clónalo localmente:
    ```bash
-   git clone https://github.com/TU_USUARIO/ProgressBars30.git
+   git clone https://github.com/TU_USUARIO/ProgressBars.git
    ```
 
 2. **Crea una Nueva Rama**:
