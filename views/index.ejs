@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Diseños Innovadores de Progreso</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>30 Diseños Innovadores de Progreso</h1>
+
+    <div class="container">
+        <% for(let i = 1; i <= 30; i++) { %>
+            <div class="progress-container type-<%= i %>">
+                <div class="progress-content">
+                    <div class="progress" id="bar-<%= i %>"></div>
+                    <span class="percentage" id="percent-<%= i %>">0%</span>
+                </div>
+                <button class="code-btn" data-type="<%= i %>">Ver código</button>
+            </div>
+        <% } %>
+    </div>
+
+    <div class="code-display">
+        <h2 class="code-title">Código del Componente <span id="component-number"></span></h2>
+        
+        <div class="code-blocks-container">
+            <div class="code-block">
+                <div class="code-header">
+                    <h3>HTML</h3>
+                    <button class="copy-btn" data-target="html-content">Copiar</button>
+                </div>
+                <pre><code id="html-content">Selecciona una barra de progreso</code></pre>
+            </div>
+            
+            <div class="code-block">
+                <div class="code-header">
+                    <h3>CSS</h3>
+                    <button class="copy-btn" data-target="css-content">Copiar</button>
+                </div>
+                <pre><code id="css-content">Selecciona una barra de progreso</code></pre>
+            </div>
+            
+            <div class="code-block">
+                <div class="code-header">
+                    <h3>JavaScript</h3>
+                    <button class="copy-btn" data-target="js-content">Copiar</button>
+                </div>
+                <pre><code id="js-content">Selecciona una barra de progreso</code></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/progress.js"></script>
+</body>
+</html>
